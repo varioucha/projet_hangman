@@ -9,4 +9,4 @@ que veut t'on
 - pseudonyme des joueurs
 - systeme de points
 - multijoueurs?
-- diff. niveau de difficulté --> leaderboard
+- diff. niveau de difficulté
