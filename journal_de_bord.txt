@@ -4,3 +4,6 @@ Mardi 23/01/24 :
     créer le repertoire (varvara qui l'a)
     Nous avons mis des fichiers que l'on va utilisé ensuite
     Décidé de faire une interface graphique si possible
+
+Jeudi 25/01/24:
+    Test Alexandra
