@@ -3,4 +3,4 @@ JOURNAL DE BORD
 Mardi 23/01/24 :
     créer le repertoire (varvara qui l'a)
     Nous avons mis des fichiers que l'on va utilisé ensuite
-    Décidé de faire une interphase graphique si possible
+    Décidé de faire une interface graphique si possible
