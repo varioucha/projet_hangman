@@ -10,7 +10,6 @@ list_de_mots = fichier.readlines()
 mot_a_deviner = random.choice(list_de_mots)
 mot_a_deviner = mot_a_deviner.upper()
 
-print(mot_a_deviner)
 nombre_de_erreur = 0
 
 
