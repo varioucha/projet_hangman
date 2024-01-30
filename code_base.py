@@ -1,10 +1,14 @@
 # montrer quu'on est dans le jeu 
 print("Welcome to hangman")
 print("-------------------------------------------")
-# liste de mot 
 
-# changer pour que ca soit ordi qui génère les mots avec la list
-mot_choisi = input("mot a faire deviner")
+#cette partie prend un mot du fichier aleatoirement et le met en majuscule
+import random
+fichier = open("liste_de_mots_francais_frgut.txt", "r")
+list_de_mots = fichier.readlines()
+
+mot_a_deviner = random.choice(list_de_mots)
+mot_a_deviner = mot_a_deviner.upper()
 
 nombre_de_erreur = 0
 
@@ -33,6 +37,11 @@ while nombre_de_erreur < 7:
 
         else:
             print("lettre pas dans le mot!")
+    if lettre_essaie in mot_a_deviner:
+        print("Bravo!")
+        #supp lettre de la list
+    else:
+        print("lettre pas dans le mot!")
         nombre_de_erreur = nombre_de_erreur + 1
     else: 
         print("arreeeeete")
