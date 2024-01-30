@@ -7,3 +7,13 @@ Mardi 23/01/24 :
 
 Jeudi 25/01/24:
     bouts du code de base 
+
+Mardi 30/01/24 :
+    Nous avons continuez le code de base
+    Ajouter les usernames et le mot random d'une list
+
+
+
+    truc a faire:
+    changer lettre qu'on donne en majuscule
+    permettre de faire apparaitre le mot vide eet qui se remplit petit a petit
