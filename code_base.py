@@ -4,13 +4,15 @@ print("-------------------------------------------")
 
 #cette partie prend un mot du fichier aleatoirement et le met en majuscule
 import random
-fichier = open("liste_de_mots_francais_frgut.txt", "r")
+fichier = open("liste_de_mots_francais_frgut_.txt", "r")
 list_de_mots = fichier.readlines()
 
 mot_a_deviner = random.choice(list_de_mots)
 mot_a_deviner = mot_a_deviner.upper()
 
+print(mot_a_deviner)
 nombre_de_erreur = 0
+
 
 #tant que le nombre d'erreur autorisé n'est pas dépacé le jeux continue
 while nombre_de_erreur < 7:
