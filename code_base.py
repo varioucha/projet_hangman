@@ -15,7 +15,7 @@ nombre_de_erreur = 0
 #tant que le nombre d'erreur autorisé n'est pas dépacé le jeux continue
 while nombre_de_erreur < 7:
     lettre_essaie = input("essayez une lettre")
-    if lettre_essaie in mot_choisi:
+    if lettre_essaie in mot_a_deviner:
         print("Bravo!")
         #supp lettre de la list
     else:
