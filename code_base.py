@@ -1,3 +1,8 @@
+# montrer quu'on est dans le jeu 
+print("Welcome to hangman")
+print("-------------------------------------------")
+# liste de mot 
+
 # changer pour que ca soit ordi qui génère les mots avec la list
 mot_choisi = input("mot a faire deviner")
 
