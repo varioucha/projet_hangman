@@ -1,5 +1,5 @@
 # montrer quu'on est dans le jeu 
-print("Welcome to hangman")
+print("Welcome to hangman !")
 print("-------------------------------------------")
 
 #cette partie prend un mot du fichier aleatoirement et le met en majuscule
