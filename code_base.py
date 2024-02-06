@@ -1,4 +1,5 @@
-# montrer quu'on est dans le jeu 
+# montrer quu'on est dans le jeu a
+
 
 print("Welcome to hangman")
 print("-------------------------------------------")
@@ -41,4 +42,6 @@ while nombre_de_erreur < 7:
             nombre_de_erreur = nombre_de_erreur + 1
     else: 
         print("arreeeeete")
-        
+
+print("perdu")
+print("le mot était:" + mot_a_deviner)
