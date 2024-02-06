@@ -1,4 +1,5 @@
-# montrer quu'on est dans le jeu 
+# montrer quu'on est dans le jeu e
+
 print("Welcome to hangman")
 print("-------------------------------------------")
  
@@ -12,14 +13,14 @@ mot_a_deviner = mot_a_deviner.upper()
 
 nombre_de_erreur = 0
 
-alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
 list_mot_choisi = []
 
 #tant que le nombre d'erreur autorisé n'est pas dépacé le jeux continue
 while nombre_de_erreur < 7:
     
-    lettre_essaie = input("essayez une lettre")
+    lettre_essaie = input("essayez une lettre").upper()
     #si la lettre dans l'alphabet, elle est supprimé de l'alphabet. Puis ajouté à la liste "list_mot_choisi".
     
     if lettre_essaie in alphabet:
