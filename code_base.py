@@ -1,7 +1,7 @@
 # montrer quu'on est dans le jeu 
 print("Welcome to hangman")
 print("-------------------------------------------")
-
+ 
 #cette partie prend un mot du fichier aleatoirement et le met en majuscule
 import random
 fichier = open("liste_de_mots_francais_frgut_.txt", "r")
