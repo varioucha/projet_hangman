@@ -1,4 +1,4 @@
-# montrer quu'on est dans le jeu a
+# montrer quu'on est dans le jeu 
 
 
 print("Welcome to hangman")
