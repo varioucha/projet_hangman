@@ -12,7 +12,7 @@ def display_word_state(mot_a_deviner, lettres_essai):
 # Définir un mot à deviner
 #cette partie va prendre un mot du fichier aleatoirement et le met en majuscule
 import random
-fichier = open("liste_de_mots_francais_frgut_.txt", "r")
+fichier = open("list_mots_2.txt", "r")
 list_de_mots = fichier.readlines()
 
 mot_a_deviner = random.choice(list_de_mots)
