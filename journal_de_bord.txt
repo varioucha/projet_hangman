@@ -11,6 +11,18 @@ Jeudi 25/01/24:
 Mardi 30/01/24 :
     Nous avons continuez le code de base
     Ajouter les usernames et le mot random d'une list
+Mardi 6/02/24 :
+    code de base fonctionne
+    on a amélioré le code de base
+    On a essayé de faire en sorte que les lettres justes avec des tirets apparaissent
+
+    idées:
+        différents niveaux de jeu
+        interface graphique 
+    prochaine fois: 
+        trouver une autre liste de mots
+        ajouter le fichier au code
+
 
 
 
