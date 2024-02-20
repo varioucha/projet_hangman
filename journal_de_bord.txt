@@ -25,4 +25,5 @@ Mardi 20/02/2024 :
 
     chose a faire:
     verifier si nom qui existe dj est le tiens ou pas, mot de passe?, faire marcher les systeme des scores --> demander prof pour v pour tkinter
-    
+    faire aussi un module a un moment donnée
+    faire qu'on puisse quitter le jeu ou RECOMMENCER
