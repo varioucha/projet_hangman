@@ -1,0 +1,28 @@
+# import le random module
+import random
+#module pour les expressions régulières
+import re
+ # definir une fonction de bienvenue
+def bienvenue():
+    est_uniquement_alphabetique = False
+    # definir un nom variable
+    while not est_uniquement_alphabetique:
+        nom = input("""
+                    ===============================================
+                    > Bienvenue au jeu du pendu ! Donnez un nom d'utilisateur: <
+                    """)
+            
+        # donner l'indication que l'on accepte qu'un nom d'utilisateur avec des lettres
+        est_uniquement_alphabetique = bool(re.match("^[a-zA-Z]+$",nom))
+        if  est_uniquement_alphabetique:
+            print(""">> Salut!!""",nom,"""Content de t'avoir parmis nous! <<<
+                        Tu vas jouer contre l'ordinateur.
+                        L'ordinateur va choisir un mot au hasard et tu dois le trouver !
+                        ================================================================
+                        Bonne chance!""")
+            
+        else:
+            print('Veuillez entrer des lettres uniquement, merci')
+   
+bienvenue()
+
