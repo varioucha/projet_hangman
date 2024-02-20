@@ -1,0 +1,5 @@
+Pour hangman (dessin) :
+https://github.com/techwithtim/Hangman/blob/master/hangman3.png
+Bienvenue :
+https://mardiyyah.medium.com/a-simple-hangman-learnpythonthroughprojects-series-10-fedda58741b
+Liste de mots :
