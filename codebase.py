@@ -10,9 +10,15 @@ def display_word_state(mot_a_deviner, lettres_essai):
     print(f"Il reste {remaining_letters} lettre(s) à trouver.")
 
 # Définir un mot à deviner
-mot_a_deviner = "PENDU"  # Exemple de mot
-lettres_essai = []
+#cette partie va prendre un mot du fichier aleatoirement et le met en majuscule
+import random
+fichier = open("liste_de_mots_francais_frgut_.txt", "r")
+list_de_mots = fichier.readlines()
 
+mot_a_deviner = random.choice(list_de_mots)
+mot_a_deviner = mot_a_deviner.upper()
+
+lettres_essai = []
 # Message de bienvenue
 print("Bienvenue dans le jeu du pendu")
 print("-------------------------------------------")
