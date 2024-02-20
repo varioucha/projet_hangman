@@ -1,23 +1,53 @@
 
-"""
-import random
-fichier = open("liste_de_mots_francais_frgut_.txt", "r")
-list_de_mots = fichier.readlines()
+#test pour username et score
 
-mot_a_deviner = random.choice(list_de_mots)
-mot_a_deviner = mot_a_deviner.upper()
+import pickle
 
-mot_affiche_list = ["_"] * len(mot_a_deviner)
+class Joueur:
+    def __init__(self, nom):
+        self.nom = nom
+        self.score = 0
 
-lettre_essaie = input("")
+    def mettre_a_jour_score(self, points):
+        self.score += points
 
-#dans if lettre dans word a deviner
-for index, letter in enumerate(mot_a_deviner):
-            if letter == lettre_essaie:
-                mot_affiche_list[index] = lettre_essaie  # Replace the underscore with the guessed letter
-        print(f"Word: {''.join(mot_affiche_list)}")  # Join the list elements into a string for display
-"""
+class Jeu:
+    def __init__(self):
+        self.joueurs = []
 
+    def ajouter_joueur(self, joueur):
+        self.joueurs.append(joueur)
 
+    def trouver_joueur(self, nom):
+        for joueur in self.joueurs:
+            if joueur.nom == nom:
+                return joueur
+        return None
 
-mot_montré = "_" * len(word)
+    def sauvegarder(self, fichier):
+        with open(fichier, 'wb') as f:
+            pickle.dump(self.joueurs, f)
+
+    def charger(self, fichier):
+        try:
+            with open(fichier, 'rb') as f:
+                self.joueurs = pickle.load(f)
+        except FileNotFoundError:
+            pass
+
+# Exemple d'utilisation
+jeu = Jeu()
+jeu.charger('sauvegarde.pkl')  # Charge les joueurs existants
+
+# Ajouter ou mettre à jour un joueur
+nom_joueur = input("Entrez votre nom: ")
+joueur = jeu.trouver_joueur(nom_joueur)
+if joueur is None:
+    joueur = Joueur(nom_joueur)
+    jeu.ajouter_joueur(joueur)
+
+# Mettre à jour le score du joueur
+joueur.mettre_a_jour_score(10)  # Ajoute 10 points au score du joueur
+
+# Sauvegarder les joueurs après la mise à jour
+jeu.sauvegarder('sauvegarde.pkl')

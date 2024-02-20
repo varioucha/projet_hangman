@@ -11,21 +11,18 @@ Jeudi 25/01/24:
 Mardi 30/01/24 :
     Nous avons continuez le code de base
     Ajouter les usernames et le mot random d'une list
+
 Mardi 6/02/24 :
     code de base fonctionne
     on a amélioré le code de base
     On a essayé de faire en sorte que les lettres justes avec des tirets apparaissent
 
-    idées:
-        différents niveaux de jeu
-        interface graphique 
-    prochaine fois: 
-        trouver une autre liste de mots
-        ajouter le fichier au code
+Mardi 20/02/2024 :
+    Nous avons fait marcher les fichiers et créer deux niveau différents
+    nous avons aussi commencé aussi a creer un système de score et à faire une interface graphique
 
 
 
-
-    truc a faire:
-    changer lettre qu'on donne en majuscule
-    permettre de faire apparaitre le mot vide eet qui se remplit petit a petit
+    chose a faire:
+    verifier si nom qui existe dj est le tiens ou pas, mot de passe?
+    
