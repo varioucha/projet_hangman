@@ -17,3 +17,7 @@ for index, letter in enumerate(mot_a_deviner):
                 mot_affiche_list[index] = lettre_essaie  # Replace the underscore with the guessed letter
         print(f"Word: {''.join(mot_affiche_list)}")  # Join the list elements into a string for display
 """
+
+
+
+mot_montré = "_" * len(word)
