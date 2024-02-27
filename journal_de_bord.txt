@@ -21,9 +21,15 @@ Mardi 20/02/2024 :
     Nous avons fait marcher les fichiers et créer deux niveau différents
     nous avons aussi commencé aussi a creer un système de score et à faire une interface graphique
 
+Mardi 27/02/2024 :
+    Interface graphique avec les images
+    developpement du username
+
 
 
     chose a faire:
     verifier si nom qui existe dj est le tiens ou pas, mot de passe?, faire marcher les systeme des scores --> demander prof pour v pour tkinter
     faire aussi un module a un moment donnée
     faire qu'on puisse quitter le jeu ou RECOMMENCER
+    que l'image change en fonction du nombre de d'eurror
+    de creer un systeme de score qui est retenu
