@@ -1,5 +1,10 @@
-import tkinter as tk
-window = tk.Tk()
+from tkinter import *
+
+window = Tk()
 window.title("Hangman")
-label = tk.Label(window, text= "Hello")
+window.geometry("300x200")
+
+
+label = Label(window, text= "Hello",  bg="white", fg="black")
+label.place(x=100, y=200)
 window.mainloop()

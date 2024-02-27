@@ -19,7 +19,7 @@ print("-------------------------------------------")
 #creer systeme de joueurs enrengistrer et les milleures scores:
 
 #choisir le niveau (list de mots un ou deux)
-niveau = input("choissisez votre niveau: (1) : mots facile, (2) : mots difficile.")
+niveau = int(input("choissisez votre niveau: (1) : mots facile, (2) : mots difficile."))
 if niveau == 1:
     print("niveau choisi facile")
     # Obtenir le chemin complet vers le script courant x2
@@ -91,3 +91,4 @@ while nombre_de_erreurs < 6 and set(mot_a_deviner) != set(lettres_essai):
 if set(mot_a_deviner) != set(lettres_essai):
     print("Le mot à deviner était:", mot_a_deviner)
 
+    
