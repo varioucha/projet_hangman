@@ -11,7 +11,7 @@ label_word = Label(window, text= "Hello",  bg="white", fg="black")
 label_word.place(x=100, y=200)
 
 #image
-image_1 = PhotoImage(file="image.png")
+image_1 = PhotoImage(file= "projet_hangman/image_hangman.png/image_hangman0.png")
 label = Label(image=image_1)
 
 window.mainloop()
