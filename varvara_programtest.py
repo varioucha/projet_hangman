@@ -16,8 +16,8 @@ class Jeu:
         self.joueurs = []
 
     def ajouter_joueur(self, joueur):
-        self.joueurs.append(joueur)
-
+         self.joeurs.append(joueur)   
+         
     def trouver_joueur(self, nom):
         for joueur in self.joueurs:
             if joueur.nom == nom:
@@ -33,7 +33,7 @@ class Jeu:
             with open(fichier, 'rb') as f:
                 self.joueurs = pickle.load(f)
         except FileNotFoundError:
-            pass
+            self.scores = []
 
 # Exemple d'utilisation
 jeu = Jeu()
