@@ -20,6 +20,10 @@ print("-------------------------------------------")
 
 #choisir le niveau (list de mots un ou deux)
 niveau = int(input("choissisez votre niveau: (1) : mots facile, (2) : mots difficile."))
+while niveau != 1 and niveau != 2:
+    print("Erreur : Veuillez saisir uniquement 1 ou 2")
+    niveau = int(input("choissisez votre niveau: (1) : mots facile, (2) : mots difficile."))
+
 if niveau == 1:
     print("niveau choisi facile")
     # Obtenir le chemin complet vers le script courant x2
@@ -47,6 +51,9 @@ else:
 
     #on ouvre le fichier file.txt
     f = open(path, "r")
+
+    
+   
 
 
 #definir mot

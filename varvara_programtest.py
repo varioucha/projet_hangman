@@ -16,8 +16,8 @@ class Jeu:
         self.joueurs = []
 
     def ajouter_joueur(self, joueur):
-         self.joeurs.append(joueur)   
-         
+         self.joueurs.append(joueur)   
+
     def trouver_joueur(self, nom):
         for joueur in self.joueurs:
             if joueur.nom == nom:
@@ -51,3 +51,5 @@ joueur.mettre_a_jour_score(10)  # Ajoute 10 points au score du joueur
 
 # Sauvegarder les joueurs après la mise à jour
 jeu.sauvegarder('sauvegarde.pkl')
+
+
