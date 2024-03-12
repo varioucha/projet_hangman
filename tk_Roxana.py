@@ -35,3 +35,20 @@ canvas.place(x=200, y=50)  # Adjust x et y pour changer postionnement de l'image
 canvas.create_image(0,0, anchor=NW, image=photo)
 
 window.mainloop()
+
+
+root = Tk() 
+root.geometry("200x100") 
+  
+# Function for closing window 
+  
+  
+def Close(): 
+    root.destroy() 
+  
+  
+# Button for closing 
+exit_button = Button(root, text="Exit", command=Close) 
+exit_button.pack(pady=20) 
+  
+root.mainloop()  

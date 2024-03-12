@@ -33,3 +33,9 @@ Mardi 27/02/2024 :
     faire qu'on puisse quitter le jeu ou RECOMMENCER
     que l'image change en fonction du nombre de d'eurror
     de creer un systeme de score qui est retenu
+
+Mardi 12/03/2024 :
+    on a créé un bouton pour quitter le jeu
+    code de base pour les scores
+    changement de couleur en fonction des fautes
+    travaillé dans l'intégration de tkinter au jeu
