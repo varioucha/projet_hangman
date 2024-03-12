@@ -6,11 +6,11 @@ window = Tk()
 window.title("Hangman")
 window.geometry("600x400")
 
-''' 
+
 #text
 label_word = Label(window, text= "Hello",  bg="white", fg="black")
 label_word.place(x=100, y=200)
-'''
+
 #creation d'un frame
 frame = Frame(window)
 frame.pack(padx=10, pady=10)
