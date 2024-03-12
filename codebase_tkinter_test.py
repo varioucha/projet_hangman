@@ -20,19 +20,20 @@ window = Tk()
 window.title("Hangman")
 window.geometry("600x400")
 
+#creation d'un frame
+frame = Frame(window)
+frame.pack(padx=10, pady=10)
+
 # Message de bienvenue
-
-text = Text(BOTTOM)
+text = Text(window)
 text.insert(INSERT,"Bienvenue dans le jeu du pendu" )
-label_word = Label(window, text= "Bienvenue dans le jeu du pendu",  bg="white", fg="black")
-label_word.place(x=100, y=200)
-
+text.pack()
+window.mainloop()
 
 #creer systeme de joueurs enrengistrer et les milleures scores:
 
 #choisir le niveau (list de mots un ou deux)
-label_word = Label(window, text= "Hello",  bg="white", fg="black")
-label_word.place(x=100, y=200)
+
 niveau = int(input("choissisez votre niveau: (1) : mots facile, (2) : mots difficile."))
 if niveau == 1:
     print("niveau choisi facile")
