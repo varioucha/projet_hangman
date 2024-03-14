@@ -1,7 +1,7 @@
 
 
 game = "hangman"
-fautes = "nobre de fautes dans le jeu à ajouter" * 10
+fautes = "nombre de fautes dans le jeu à ajouter" * 10
 
 def scores():
     for faute in game:

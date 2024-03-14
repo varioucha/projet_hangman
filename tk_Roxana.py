@@ -52,3 +52,10 @@ exit_button = Button(root, text="Exit", command=Close)
 exit_button.pack(pady=20) 
   
 root.mainloop()  
+
+"""
+text = Text(window)
+text.insert(INSERT,"Bienvenue dans le jeu du pendu" )
+text.pack()
+window.mainloop()
+"""
