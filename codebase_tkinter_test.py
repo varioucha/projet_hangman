@@ -26,8 +26,28 @@ frame.pack(padx=10, pady=10)
 
 # Message de bienvenue
 text = Text(window)
-text.insert(INSERT,"Bienvenue dans le jeu du pendu" )
+text.insert(INSERT,"Bienvenue dans le jeu du pendu")
 text.pack()
+
+#intergartion de l'image
+image_path = "projet_hangman/images/hangman0.png"
+image = Image.open(image_path)
+photo = ImageTk.PhotoImage(image)
+
+#placement image
+image_x = 200 
+image_y = 150
+
+#creation d'un canvas
+canvas = Canvas(window, width=image.width, height=image.height)
+canvas.pack()
+
+# Using place to position the canvas
+canvas.place(x=200, y=50)  # Adjust x et y pour changer postionnement de l'image
+
+# Add the image to the canvas
+canvas.create_image(0,0, anchor=NW, image=photo)
+
 window.mainloop()
 
 #creer systeme de joueurs enrengistrer et les milleures scores:
@@ -84,13 +104,34 @@ while nombre_de_erreurs < 6 and set(mot_a_deviner) != set(lettres_essai):
     if lettre_essai in mot_a_deviner:
         if lettre_essai in lettres_essai:
             print("Vous avez déjà essayé cette lettre. Essayez en une autre")
-            nombre_de_erreurs += 1
         else:
             print(f"Bien joué ! La lettre '{lettre_essai}' est dans le mot.")
             lettres_essai.append(lettre_essai)
     elif lettre_essai in alphabet:
         print(f"Dommage, la lettre '{lettre_essai}' n'est pas dans le mot.")
         nombre_de_erreurs += 1
+
+        #intergartion de l'image
+        image_path = "projet_hangman/images/hangman{0}.png".format(nombre_de_erreurs) 
+        image = Image.open(image_path)
+        photo = ImageTk.PhotoImage(image)
+
+        #placement image
+        image_x = 200 
+        image_y = 150
+
+        #creation d'un canvas
+        canvas = Canvas(window, width=image.width, height=image.height)
+        canvas.pack()
+
+        # Using place to position the canvas
+        canvas.place(x=200, y=50)  # Adjust x et y pour changer postionnement de l'image
+
+        # Add the image to the canvas
+        canvas.create_image(0,0, anchor=NW, image=photo)
+
+        window.mainloop()
+        
     else:
         print("Mettez une Lettre ou arretez de jouer")
 
