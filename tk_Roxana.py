@@ -35,3 +35,10 @@ canvas.place(x=200, y=50)  # Adjust x et y pour changer postionnement de l'image
 canvas.create_image(0,0, anchor=NW, image=photo)
 
 window.mainloop()
+
+"""
+text = Text(window)
+text.insert(INSERT,"Bienvenue dans le jeu du pendu" )
+text.pack()
+window.mainloop()
+"""
