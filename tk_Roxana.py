@@ -41,6 +41,17 @@ root = Tk()
 root.geometry("200x100") 
   
 # Function for closing window 
+
+
+def play_button():
+    play = Button(root,  padx=8, width=18, pady=8, bd=8, font=("Arial", 26), text="Play", command=play_button)
+    play_button.pack()
+
+    pause_button = Button(root,  padx=8, width=18, pady=8, bd=8, font=("Arial", 26), text="Pause", command=root.quit)
+    pause_button.pack()
+
+    quit_button = Button(root, padx=8, width=18, pady=8, bd=8, font=("Arial", 26), text="Quit", command=root.destroy)
+    quit_button.pack()
   
   
 def Close(): 
