@@ -200,15 +200,13 @@ def jeu():
     
     display_word_state()
 
-    def reinitialiser_etat_du_jeu():
+    def reinitialiser_jeu():
         global nombre_erreurs, lettres_essai
 
         nombre_erreurs = 0
         lettres_essai = []
 
-        # Vous pouvez également réinitialiser ici toute autre variable d'état nécessaire
-
-        # Assurez-vous d'actualiser l'affichage si nécessaire, par exemple :
+        # actualiser l'affichage
         display_word_state()
         message_var.set("")
         entree_lettre.config(state='normal')  # Réactive l'entrée
@@ -216,7 +214,7 @@ def jeu():
 
     def recommencer_jeu():
         window_4.destroy()
-        reinitialiser_etat_du_jeu()
+        reinitialiser_jeu()
         premiere_fenetre()
 
 
@@ -233,6 +231,16 @@ def jeu():
     label_image = Label(window_4, image=photo)
     label_image.pack()
     label_image.place(relx = 0.5, rely = 0.3, anchor = CENTER)
+
+    def update_image():
+        global photo
+        image_path = f"images/hangman{nombre_erreurs}.png"
+        image_original = Image.open(image_path)
+        resized_image = image_original.resize((180, 180))
+        photo = ImageTk.PhotoImage(resized_image)
+        label_image.config(image=photo)
+
+    update_image
 
     window_4.mainloop()
 
