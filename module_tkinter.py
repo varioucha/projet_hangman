@@ -26,6 +26,7 @@ def premiere_fenetre():
     exit_button.place(relx = 0.5, rely = 0.6, anchor = CENTER)
 
 
+
     window.mainloop()
 
 
@@ -154,12 +155,15 @@ def jeu():
             if lettre in lettres_essai:
                 message_var.set("Vous avez déjà essayé cette lettre.")
                 nombre_erreurs += 1
+                update_image()
             else:
                 lettres_essai.append(lettre)
                 message_var.set(f"Bien joué ! La lettre '{lettre}' est dans le mot.")
                 display_word_state()
         elif lettre in alphabet:
             nombre_erreurs += 1
+            update_image()
+
             message_var.set(f"Dommage, la lettre '{lettre}' n'est pas dans le mot.")
         else:
             message_var.set("Veuillez entrer une lettre valide.")
@@ -209,8 +213,8 @@ def jeu():
         # actualiser l'affichage
         display_word_state()
         message_var.set("")
-        entree_lettre.config(state='normal')  # Réactive l'entrée
-        bouton_verif.config(state='normal')
+        #entree_lettre.config(state='normal')  # Réactive l'entrée
+       #bouton_verif.config(state='normal')
 
     def recommencer_jeu():
         window_4.destroy()
@@ -223,7 +227,9 @@ def jeu():
 
 
     #intergartion de l'image
-    image_path = "images/hangman0.png"
+    image_path_0 = Path(__file__).resolve()
+    script_dir = image_path_0.parent
+    image_path = str(script_dir)+ "/hangman0.png"
     image_original = Image.open(image_path)
     resized_image = image_original.resize((180, 180))
     photo = ImageTk.PhotoImage(resized_image)
@@ -240,7 +246,7 @@ def jeu():
         photo = ImageTk.PhotoImage(resized_image)
         label_image.config(image=photo)
 
-    update_image
+
 
     window_4.mainloop()
 
@@ -249,7 +255,6 @@ def jeu():
 premiere_fenetre()
 
 
-#recommencer données quand on recommence --> fenetre qui s'ouvre
 # changer les images en fonction du nombre d'erreur
 #creer système de username et points
 #faire le readme et journal
