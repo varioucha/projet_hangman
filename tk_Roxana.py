@@ -16,7 +16,7 @@ frame = Frame(window)
 frame.pack(padx=10, pady=10)
 
 #intergartion de l'image
-image_path = "projet_hangman/images/hangman0.png"
+image_path = "images/hangman0.png"
 image = Image.open(image_path)
 photo = ImageTk.PhotoImage(image)
 

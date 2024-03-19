@@ -60,6 +60,7 @@ else:
 list_de_mots = f.readlines()
 
 mot_a_deviner = random.choice(list_de_mots)
+mot_a_deviner = mot_a_deviner.strip()
 mot_a_deviner = mot_a_deviner.upper()
 
 lettres_essai = []
