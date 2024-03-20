@@ -1,7 +1,7 @@
 JOURNAL DE BORD
 
 Mardi 23/01/24 :
-#Faire :
+#Fait :
 - Créer le repertoire (varvara qui l'a)
 - Nous avons mis des fichiers que l'on va utilisé ensuite
 #Veut :
@@ -11,49 +11,95 @@ Mardi 23/01/24 :
 #Remarque :
 - Nous sommes en pleines recherches et découverte de ce que le projet a besoin
 
+
 Jeudi 25/01/24:
-    Nous avons reussibouts du code de base 
+#Fait :
+- Nous avons reussi un bout du code de base
+#Veut :
+- Avancer dans le code 
+- Chercher des listes de mots pour le pendu 
+#Problème :
+
+#Remarque :
+
 
 Mardi 30/01/24 :
-    Nous avons continuez le code de base
-    Ajouter les usernames et le mot random d'une list
+#Fait :
+- Nous avons continuez le code de base
+- Rechercher une liste de mots pour le mettre dans le code
+#Veut :
+- Ajouter les usernames
+#Problème :
+- Trouver les bonnes listes de mots différentes 
+#Remarque :
+ 
 
 Mardi 6/02/24 :
-    code de base fonctionne
-    on a amélioré le code de base
-    On a essayé de faire en sorte que les lettres justes avec des tirets apparaissent
+#Fait :
+- Le code de base fonctionne 
+- On a essayé de faire en sorte que les lettres justes avec des tirets apparaissent
+- Créer un code pour souhaiter la bienvenue au joueur 
+#Veut :
+- Nous voulons amélioré le code de base 
+#Problème :
+- Un peu de souci a démarrer le programme de bienvenue, resolu grâce au prof
+#Remarque :
+
 
 Mardi 20/02/2024 :
-    Nous avons fait marcher les fichiers et créer deux niveau différents
-    nous avons aussi commencé aussi a creer un système de score et à faire une interface graphique
+#Fait :
+- Nous avons fait marcher les fichiers
+- Créer deux niveau différents
+- Nous avons commencé à créer un sytème de score
+- Nous avons commencé a faire une interface graphique 
+#Veut :
+
+#Problème :
+
+#Remarque :
+    
 
 Mardi 27/02/2024 :
-    Interface graphique avec les images
-    developpement du username
-
-
-    chose a faire:
-    verifier si nom qui existe dj est le tiens ou pas, mot de passe?, faire marcher les systeme des scores --> demander prof pour v pour tkinter
-    faire aussi un module a un moment donnée
-    faire qu'on puisse quitter le jeu ou RECOMMENCER
-    que l'image change en fonction du nombre de d'eurror
-    de creer un systeme de score qui est retenu
-    (ajouter lettre sur tablette graphique si envie)
+#Fait :
+- Nous avons reussi à ouvrir l'interface graphique 
+- Nous avons trouver de bonne images pour le fonctionnement du jeu 
+#Veut :
+- Developper le username 
+- Verifier si le nom existe deja est le notre ou pas, mot de passe ?
+- Faire marcher les systèmes des scores -> demander au prof pour tkinter
+- Faire qu'on puisse quitter le jeu ou recommencer
+- Que l'image change en fonction du nombre d'erreur
+- Créer un système de score qui est retenu
+- (Ajouter lettre sur tablette graphique si envie)
+#Problème :
+- Notre code manque d'un module rendu compte car discussion avec quelqu'uns des autres groupes (à venir)
+#Remarque :
+    
 
 Mardi 12/03/2024 :
-    Nous avons créé un bouton pour quitter le jeu
-    Trouver un code de base pour les scores
-    Nous voulons essayez pour la prochaine fois :
-    - changement de couleur en fonction des fautes
-    - travailler dans l'intégration de tkinter au jeu
+#Fait :
+- Nous avons crée un bouton pour quitter le jeu
+- Trouver un code de base pour les scores
+#Veut :
+- Changement de couleur en fonction des fautes
+- Travailler dans l'intégration de tkinter au jeu
+#Problème :
+
+#Remarque :
+    
 
 Mardi 19/03/2024 :
-    Nous avons enfin pu mettre le jeu en marche mais il a été compliqué de mettre les images qui suivent au         nombre d'erreur commise par le joueur
-    Nous avons fait une liste des choses a faire avant le rendu et la voici :
-    - Finir le readme et le journal de bord
-    - Mettre les images avec le nombre d'erreur sans autre soucis qui suit derrière
-    - Faire une tableau des scores avec les username
+#Fait :
+- Nous avons reussi à mettre le jeu en marche 
+#Veut :
+- Finir le readme et le journal de bord 
+- Mettre les images avec le nombre d'erreur sans autre soucis qui suit derrière
+- faire un tableau des scores avec les username
+#Problème :
+- Complication dans l'application des images suivant les erreurs commises par le joueur
+#Remarque :
+    
 
 Conculsion avant le rendu finale :
-    Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes       qui ont aussi fait un hangman. Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à      l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
+    Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes      qui ont aussi fait un hangman. Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à     l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
 
