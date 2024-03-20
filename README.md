@@ -1,13 +1,13 @@
 # Projet Hangman | RVA
 # Introduction 
-Dans ce projet, le but est de créer un hangman sur python à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été de façon que n'importe qui puisse jouer et que ce soit facile à comprendre, il suffit de lire tout simplement le jeu. Créez votre username et choisissez votre nievau (facile ou difficile) et à vous de jouez ! Attention ne faites pas trop erreur ou l'homme sera pendu...
-( comment la personne peut utiliser notre jeu )
+Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facile à comprendre, il suffit de lire tout simplement le jeu et cliquer sur ce qui vous correspond. En quelques étapes il suffit de créez votre username (uniquement avec des lettres) et choisissez le niveau de votre choix (facile ou difficile) et à vous de jouez ! Attention ne faites pas trop erreur ou l'homme sera pendu...
+
 
 <img width="360" alt="Capture d’écran 2024-03-19 à 09 30 37" src="https://github.com/varioucha/projet_hangman/assets/156777055/90de579f-f09a-43e3-b2f6-d50d7a5fde8a">
 
 # Exigences 
 * Avoir Python installé sur votre ordinateur
-* Installer Anaconda si vous souhaité jouer sur une interface graphique
+* Installer Anaconda pour acceder à l'interface graphique
 * Mettre Github et Python connecté ensemble
 
 # Qui à ecrit et créer ce projet ? 
