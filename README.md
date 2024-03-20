@@ -13,7 +13,7 @@ Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en frança
 
 # Qui à ecrit et créer ce projet ? 
 Le programme a été ecrit et créer par la classe d'informatique de 3ème année de maturité, au Gymnase de Chamblandes par Roxana, Varvara et Alexandra. C'est un projet que nous considerons basic malgré les nombreux soucis dont nous avons du faire face.  
-<img width="261" alt="Capture d’écran, le 2024-03-20 à 22 12 14" src="https://github.com/varioucha/projet_hangman/assets/156777055/704eb6e1-b7d5-4f72-8cd9-49e99961940d">
+
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores ! ( est ce que le jouer qui rejoue peut faire ça ou sa recommence tj a 0 ? )
