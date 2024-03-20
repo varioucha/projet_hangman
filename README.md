@@ -4,7 +4,7 @@
 # Introduction
 
 <p align="justify">
-Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de créez un username (uniquement avec des lettres) et de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Choisisez des lettres une par une et regardez si vous gagnez contre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu...
+Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de créez un username (uniquement avec des lettres) et de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Choisisez des lettres une par une et regardez si vous gagnez contre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu... (+ detailler ?)
 </p>
 
 <p align="center">
@@ -20,6 +20,8 @@ Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en frança
 <p align="justify">
 Le programme a été ecrit et créer par la classe d'informatique de 3ème année de maturité, au Gymnase de Chamblandes par Roxana, Varvara et Alexandra. C'est un projet que nous considerons basic malgré les nombreux soucis dont nous avons du faire face.  
 </p>
+
+# Lien ?
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores ! ( est ce que le jouer qui rejoue peut faire ça ou sa recommence tj a 0 ? )
