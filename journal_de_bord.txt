@@ -1,12 +1,18 @@
 JOURNAL DE BORD
 
 Mardi 23/01/24 :
-    créer le repertoire (varvara qui l'a)
-    Nous avons mis des fichiers que l'on va utilisé ensuite
-    Décidé de faire une interface graphique si possible
+#Faire :
+- Créer le repertoire (varvara qui l'a)
+- Nous avons mis des fichiers que l'on va utilisé ensuite
+#Veut :
+- Faire une interface graphique (si possible)
+#Problème :
+- Pas pour l'instant
+#Remarque :
+- Nous sommes en pleines recherches et découverte de ce que le projet a besoin
 
 Jeudi 25/01/24:
-    bouts du code de base 
+    Nous avons reussibouts du code de base 
 
 Mardi 30/01/24 :
     Nous avons continuez le code de base
@@ -26,7 +32,6 @@ Mardi 27/02/2024 :
     developpement du username
 
 
-
     chose a faire:
     verifier si nom qui existe dj est le tiens ou pas, mot de passe?, faire marcher les systeme des scores --> demander prof pour v pour tkinter
     faire aussi un module a un moment donnée
@@ -36,7 +41,19 @@ Mardi 27/02/2024 :
     (ajouter lettre sur tablette graphique si envie)
 
 Mardi 12/03/2024 :
-    on a créé un bouton pour quitter le jeu
-    code de base pour les scores
-    changement de couleur en fonction des fautes
-    travaillé dans l'intégration de tkinter au jeu
+    Nous avons créé un bouton pour quitter le jeu
+    Trouver un code de base pour les scores
+    Nous voulons essayez pour la prochaine fois :
+    - changement de couleur en fonction des fautes
+    - travailler dans l'intégration de tkinter au jeu
+
+Mardi 19/03/2024 :
+    Nous avons enfin pu mettre le jeu en marche mais il a été compliqué de mettre les images qui suivent au         nombre d'erreur commise par le joueur
+    Nous avons fait une liste des choses a faire avant le rendu et la voici :
+    - Finir le readme et le journal de bord
+    - Mettre les images avec le nombre d'erreur sans autre soucis qui suit derrière
+    - Faire une tableau des scores avec les username
+
+Conculsion avant le rendu finale :
+    Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes       qui ont aussi fait un hangman. Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à      l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
+
