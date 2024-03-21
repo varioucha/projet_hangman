@@ -233,7 +233,7 @@ def jeu():
     #intergartion de l'image
     image_path_0 = Path(__file__).resolve()
     script_dir = image_path_0.parent
-    image_path = str(script_dir)+ "/hangman0.png"
+    image_path = str(script_dir)+ "/images/hangman0.png"
     image_original = Image.open(image_path)
     resized_image = image_original.resize((180, 180))
     photo = ImageTk.PhotoImage(resized_image)
@@ -244,7 +244,7 @@ def jeu():
 
     def update_image():#def qui modifie l'image en fonction du nombre d'erreur
         global photo
-        image_path = f"images/hangman{nombre_erreurs}.png"
+        image_path = f"/images/hangman{nombre_erreurs}.png"
         image_original = Image.open(image_path)
         resized_image = image_original.resize((180, 180))
         photo = ImageTk.PhotoImage(resized_image)
