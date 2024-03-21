@@ -101,5 +101,5 @@ Mardi 19/03/2024 :
     
 
 Conculsion avant le rendu finale :
-    Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes      qui ont aussi fait un hangman. Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à     l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
+Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes qui ont aussi fait un  hangman.Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
 
