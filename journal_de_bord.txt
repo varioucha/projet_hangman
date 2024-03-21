@@ -17,10 +17,9 @@ Jeudi 25/01/24:
 - Nous avons reussi un bout du code de base
 #Veut :
 - Avancer dans le code 
-- Chercher des listes de mots pour le pendu 
-#Problème :
-
+- Chercher des listes de mots pour le pendu
 #Remarque :
+- Nous cherchons encore des informations complementaires
 
 
 Mardi 30/01/24 :
@@ -31,7 +30,6 @@ Mardi 30/01/24 :
 - Ajouter les usernames
 #Problème :
 - Trouver les bonnes listes de mots différentes 
-#Remarque :
  
 
 Mardi 6/02/24 :
@@ -42,8 +40,9 @@ Mardi 6/02/24 :
 #Veut :
 - Nous voulons amélioré le code de base 
 #Problème :
-- Un peu de souci a démarrer le programme de bienvenue, resolu grâce au prof
+- Un peu de souci a démarrer le programme de bienvenue
 #Remarque :
+- Le prof nous a aidé a resoudre le problème avec une méthode différente
 
 
 Mardi 20/02/2024 :
@@ -53,11 +52,14 @@ Mardi 20/02/2024 :
 - Nous avons commencé à créer un sytème de score
 - Nous avons commencé a faire une interface graphique 
 #Veut :
-
+- Résoudre nos difficultés 
 #Problème :
-
+- Difficulté à connecté l'interface graphique au code de base
+- Lorsque l'interface graphique "s'enclenchait", le code ne marchait plus 
+- Le code marche mais que l'on clique 1 ou 2 le niveau est le même 
 #Remarque :
-    
+- Pas eu le temps de tout ressoudre mais mais il y a eu des erreurs de lettre manquantes ou en trop 
+
 
 Mardi 27/02/2024 :
 #Fait :
@@ -72,8 +74,9 @@ Mardi 27/02/2024 :
 - Créer un système de score qui est retenu
 - (Ajouter lettre sur tablette graphique si envie)
 #Problème :
-- Notre code manque d'un module rendu compte car discussion avec quelqu'uns des autres groupes (à venir)
+- Notre code manque d'un module, rendu compte car nous avons eu une discussion avec quelqu'uns des autres groupes (à venir)
 #Remarque :
+- Le pendu n'est pas si facile que ça pas mal de complication se manifeste lorsque l'on veut tout mettre ensemble 
     
 
 Mardi 12/03/2024 :
@@ -84,10 +87,9 @@ Mardi 12/03/2024 :
 - Changement de couleur en fonction des fautes
 - Travailler dans l'intégration de tkinter au jeu
 #Problème :
+- Le temps passe vite et le rendu est proche ! 
 
-#Remarque :
     
-
 Mardi 19/03/2024 :
 #Fait :
 - Nous avons reussi à mettre le jeu en marche 
@@ -98,8 +100,9 @@ Mardi 19/03/2024 :
 #Problème :
 - Complication dans l'application des images suivant les erreurs commises par le joueur
 #Remarque :
+- Encore une fois une erreur car mal reporter le mot ou un "s" en trop 
     
 
 Conculsion avant le rendu finale :
-Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes qui ont aussi fait un  hangman.Tout les liens (la plupart) seront dans nos sources. Grâce à ces liens et à l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
+Nous avons les trois utiliser ChatGPT et fait des recherches sur Internet, sur Github grâce aux personnes qui ont aussi fait un hangman.Tout les liens (la plupart) seront dans notre Readme. Grâce à ces liens et à l'intelligence artificielle nous avons reussi à faire ce projet au mieux.
 
