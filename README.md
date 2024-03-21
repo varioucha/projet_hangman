@@ -16,7 +16,7 @@ Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en frança
 * Installer Anaconda pour acceder à l'interface graphique
 * Mettre Github et Python connecté ensemble
 
-# Qui à créee ce projet ? 
+# Qui à crée ce projet ? 
 <p align="justify">
 Le programme a été ecrit et créer par la classe d'informatique de 3ème année de maturité, au Gymnase de Chamblandes par Roxana, Varvara et Alexandra. C'est un projet que nous considerons basic malgré les nombreux soucis dont nous avons du faire face.  
 </p>
