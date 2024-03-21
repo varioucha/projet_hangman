@@ -26,7 +26,7 @@ while niveau != 1 and niveau != 2:
 
 if niveau == 1:
     print("niveau choisi facile")
-    # Obtenir le chemin complet vers le script courant x2
+    # Obtenir le chemin complet vers le script courant x2 s
     script_path = Path(__file__).resolve()
 
     #récupérer le chemin vers le dossier parent du script courant

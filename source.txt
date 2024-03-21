@@ -3,3 +3,9 @@ https://github.com/techwithtim/Hangman/blob/master/hangman3.png
 Bienvenue :
 https://mardiyyah.medium.com/a-simple-hangman-learnpythonthroughprojects-series-10-fedda58741b
 Liste de mots :
+
+
+https://pythonbasics.org/tkinter-label/
+https://stackoverflow.com/questions/19838972/how-to-update-an-image-on-a-canvas*
+https://www.tutorialspoint.com/how-to-place-an-image-into-a-frame-in-tkinter
+https://www.javatpoint.com/python-tkinter-text
