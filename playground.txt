@@ -1,43 +1,30 @@
-# montrer quu'on est dans le jeu 
-print("Welcome to hangman")
-print("-------------------------------------------")
- 
-#cette partie prend un mot du fichier aleatoirement et le met en majuscule
-import random
-fichier = open("liste_de_mots_francais_frgut_.txt", "r")
-list_de_mots = fichier.readlines()
+# Global dictionary to store scores
+scores = {}
 
-mot_a_deviner = random.choice(list_de_mots)
-mot_a_deviner = mot_a_deviner.upper()
+# Function to ask for the player's username and initiate the game
+def ask_username():
+    global username  # You'll use this to track the current player's name
+    username = input("Enter your username: ")  # For simplicity, using input, but in TKinter, you'd use an Entry widget
+    play_action()  # Assuming this starts the game, you might want to call this after getting the username
 
-nombre_de_erreur = 0
+# Example function to update the score - call this when a game ends
+def update_score(username, new_score):
+    if username in scores:
+        scores[username] += new_score  # Update existing score
+    else:
+        scores[username] = new_score  # Add new player with score
 
-alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    # Optional: Write scores to a file
+    with open("scores.txt", "w") as file:
+        for user, score in scores.items():
+            file.write(f"{user}:{score}\n")
 
-list_mot_choisi = []
+# Example function to display the leaderboard
+def display_leaderboard():
+    print("Leaderboard:")
+    sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)  # Sort scores in descending order
+    for user, score in sorted_scores:
+        print(f"{user} - {score}")
 
-#tant que le nombre d'erreur autorisé n'est pas dépacé le jeux continue
-while nombre_de_erreur < 7:
-    
-    lettre_essaie = input("essayez une lettre")
-    #si la lettre dans l'alphabet, elle est supprimé de l'alphabet. Puis ajouté à la liste "list_mot_choisi".
-    
-    if lettre_essaie in alphabet:
-        alphabet.remove(lettre_essaie)
-        list_mot_choisi.append(lettre_essaie)
-        
-        # si lettre correspond au mot, le jeu continue sans erreur, sinon le nombre d'erreur augmente
-        if lettre_essaie in mot_a_deviner: 
-            print("Bravo!")
-            
-            #si mot_choisi correspond ä la liste, le boucle s'arrete
-            if mot_a_deviner in list_mot_choisi:
-                print("le jeu est fini")
-                break 
-
-        else:
-            print("lettre pas dans le mot!")
-            nombre_de_erreur = nombre_de_erreur + 1
-    else: 
-        print("arreeeeete")
+# Integrate update_score where the game ends, and display_leaderboard where appropriate
         
