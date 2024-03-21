@@ -16,7 +16,7 @@ Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en frança
 * Installer Anaconda pour acceder à l'interface graphique
 * Mettre Github et Python connecté ensemble
 
-# Qui à ecrit et créer ce projet ? 
+# Qui à crée ce projet ? 
 <p align="justify">
 Le programme a été ecrit et créer par la classe d'informatique de 3ème année de maturité, au Gymnase de Chamblandes par Roxana, Varvara et Alexandra. C'est un projet que nous considerons basic malgré les nombreux soucis dont nous avons du faire face.  
 </p>
@@ -29,6 +29,11 @@ Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et
 * Pour la globalité du projet : https://chat.openai.com
 * Pour les images de notre Hangman : https://github.com/techwithtim/Hangman/blob/master/hangman3.png
 * Pour la liste de mot : http://www.pallier.org/liste-de-mots-francais.html
+* Pour le tkinter :
+  - https://pythonbasics.org/tkinter-label/
+  - https://stackoverflow.com/questions/19838972/how-to-update-an-image-on-a-canvas*
+  - https://www.tutorialspoint.com/how-to-place-an-image-into-a-frame-in-tkinter
+  - https://www.javatpoint.com/python-tkinter-text
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores !
