@@ -21,7 +21,14 @@ Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en frança
 Le programme a été ecrit et créer par la classe d'informatique de 3ème année de maturité, au Gymnase de Chamblandes par Roxana, Varvara et Alexandra. C'est un projet que nous considerons basic malgré les nombreux soucis dont nous avons du faire face.  
 </p>
 
-# Lien ?
+# Lien
+<p align=justify">
+Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et surtout l'intelligence artificielle (Chat GPT). Voici les quelques liens qui nous ont aidé et qui nous ont inspiré au processus.
+</p> 
+*https://chat.openai.com -> Pour la globalité du projet 
+*https://github.com/techwithtim/Hangman/blob/master/hangman3.png -> Pour les images de notre Hangman
+
+
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores ! ( est ce que le jouer qui rejoue peut faire ça ou sa recommence tj a 0 ? )
