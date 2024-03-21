@@ -29,6 +29,11 @@ Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et
 * Pour la globalité du projet : https://chat.openai.com
 * Pour les images de notre Hangman : https://github.com/techwithtim/Hangman/blob/master/hangman3.png
 * Pour la liste de mot : http://www.pallier.org/liste-de-mots-francais.html
+* Pour le tkinter :
+  - https://pythonbasics.org/tkinter-label/
+  - https://stackoverflow.com/questions/19838972/how-to-update-an-image-on-a-canvas*
+  - https://www.tutorialspoint.com/how-to-place-an-image-into-a-frame-in-tkinter
+  - https://www.javatpoint.com/python-tkinter-text
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores !
