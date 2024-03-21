@@ -20,6 +20,7 @@ def premiere_fenetre():
 
     #boutons
     play_button = Button(window, text="Jouer", command=play_action)
+    #changer play_action en username_window
     play_button.place(relx = 0.5, rely = 0.4, anchor = CENTER)
 
     exit_button = Button(window, text="Exit", command=window.destroy) 
@@ -29,6 +30,11 @@ def premiere_fenetre():
 
     window.mainloop()
 
+"""
+def username_window():
+
+
+"""
 
 def play_action():
     window.destroy()
@@ -151,7 +157,10 @@ def jeu():
         lettre = entree_lettre.get().upper()  # Récupère la lettre de l'Entry
         entree_lettre.delete(0, 'end')  # Efface l'Entry après récupération
 
-        if lettre in mot_a_deviner:
+        if lettre == "":
+            message_var.set("Veuillez entrer une lettre valide.")
+
+        elif lettre in mot_a_deviner:
             if lettre in lettres_essai:
                 message_var.set("Vous avez déjà essayé cette lettre.")
                 nombre_erreurs += 1
@@ -165,6 +174,7 @@ def jeu():
             update_image()
 
             message_var.set(f"Dommage, la lettre '{lettre}' n'est pas dans le mot.")
+
         else:
             message_var.set("Veuillez entrer une lettre valide.")
 
@@ -229,7 +239,7 @@ def jeu():
     #intergartion de l'image
     image_path_0 = Path(__file__).resolve()
     script_dir = image_path_0.parent
-    image_path = str(script_dir)+ "/hangman0.png"
+    image_path = str(script_dir)+ "/images/hangman0.png"
     image_original = Image.open(image_path)
     resized_image = image_original.resize((180, 180))
     photo = ImageTk.PhotoImage(resized_image)
@@ -240,11 +250,15 @@ def jeu():
 
     def update_image():
         global photo
-        image_path = f"images/hangman{nombre_erreurs}.png"
-        image_original = Image.open(image_path)
-        resized_image = image_original.resize((180, 180))
+        image_path_1 = Path(__file__).resolve()
+        script_dir_1 = image_path_1.parent
+        image_path_1 = str(script_dir_1)+ f"/images/hangman{nombre_erreurs}.png"
+        image_original_1 = Image.open(image_path_1)
+        resized_image = image_original_1.resize((180, 180))
         photo = ImageTk.PhotoImage(resized_image)
-        label_image.config(image=photo)
+        label_image = Label(window_4, image=photo)
+        label_image.pack()
+        label_image.place(relx = 0.5, rely = 0.3, anchor = CENTER)
 
 
 
@@ -255,6 +269,5 @@ def jeu():
 premiere_fenetre()
 
 
-# changer les images en fonction du nombre d'erreur
 #creer système de username et points
 #faire le readme et journal
