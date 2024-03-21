@@ -242,13 +242,17 @@ def jeu():
     label_image.pack()
     label_image.place(relx = 0.5, rely = 0.3, anchor = CENTER)
 
-    def update_image():#def qui modifie l'image en fonction du nombre d'erreur
+    def update_image():
         global photo
-        image_path = f"/images/hangman{nombre_erreurs}.png"
-        image_original = Image.open(image_path)
-        resized_image = image_original.resize((180, 180))
+        image_path_1 = Path(__file__).resolve()
+        script_dir_1 = image_path_1.parent
+        image_path_1 = str(script_dir_1)+ f"/images/hangman{nombre_erreurs}.png"
+        image_original_1 = Image.open(image_path_1)
+        resized_image = image_original_1.resize((180, 180))
         photo = ImageTk.PhotoImage(resized_image)
-        label_image.config(image=photo)
+        label_image = Label(window_4, image=photo)
+        label_image.pack()
+        label_image.place(relx = 0.5, rely = 0.3, anchor = CENTER)
 
 
 
