@@ -26,9 +26,9 @@ Le programme a été ecrit et créer par la classe d'informatique de 3ème anné
 Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et surtout l'intelligence artificielle (Chat GPT). Voici les quelques liens qui nous ont aidé et qui nous ont inspiré au processus.
 </p> 
 
-* https://chat.openai.com -> Pour la globalité du projet 
-* https://github.com/techwithtim/Hangman/blob/master/hangman3.png -> Pour les images de notre Hangman
-* http://www.pallier.org/liste-de-mots-francais.html -> Pour la liste de mot
+* Pour la globalité du projet : https://chat.openai.com
+* Pour les images de notre Hangman : https://github.com/techwithtim/Hangman/blob/master/hangman3.png
+* Pour la liste de mot : http://www.pallier.org/liste-de-mots-francais.html
 
 # Bonus 
 Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores ! ( est ce que le jouer qui rejoue peut faire ça ou sa recommence tj a 0 ? )
