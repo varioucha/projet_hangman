@@ -4,7 +4,7 @@
 # Introduction
 
 <p align="justify">
-Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de créez un username (uniquement avec des lettres) et de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Choisisez des lettres une par une et regardez si vous gagnez contre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu... (+ detailler ?)
+Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de créez un username (uniquement avec des lettres) et de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Choisisez des lettres une par une et regardez si vous gagnez contre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu... 
 </p>
 
 <p align="center">
@@ -31,4 +31,4 @@ Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et
 * Pour la liste de mot : http://www.pallier.org/liste-de-mots-francais.html
 
 # Bonus 
-Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores ! ( est ce que le jouer qui rejoue peut faire ça ou sa recommence tj a 0 ? )
+Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores !
