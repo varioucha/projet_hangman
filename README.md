@@ -36,5 +36,5 @@ Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et
   - https://www.javatpoint.com/python-tkinter-text
 
 # Bonus 
-Rejouez et augmentez votre score afin d'être le premier sur le tableau des scores !
-Petite information.. le mode facile faut 1 points et le mode difficile en vaut 2 lorsque vous gagnez la partie !
+*Rejouez et augmentez votre score afin d'être le premier sur le tableau des scores !
+*Petite information.. le mode facile faut 1 points et le mode difficile en vaut 2 lorsque vous gagnez la partie !
