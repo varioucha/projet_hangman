@@ -11,7 +11,7 @@ def choisir_score():
   else:
     score = 1000
 
-    
+    # fgbiurj
 
 
 def scores():
