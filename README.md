@@ -4,7 +4,7 @@
 # Introduction
 
 <p align="justify">
-Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de créez un username (uniquement avec des lettres) et de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Choisisez des lettres une par une et regardez si vous gagnez contre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu... 
+Ce projet a été crée dans le but de jouer au hangman (jeu du pendu en français) grâce à l'aide de nos connaissances et de nos recherches. Comment y jouer ? Les règles sont-elles les même ? Le jeu a été crée de façon que n'importe qui puisse jouer et facilement le comprendre. Il suffit de lire tout simplement le jeu et cliquer sur le bouton qui vous convient. En quelques étapes, il suffit de choisir le niveau de votre choix (facile ou difficile) et à vous de jouez. Votre username s'enregistrera que lorsque vous aurez gagné. Choisisez des lettres une par une et regardez si vous pouvez battre l'ordinateur ! Attention ne faites pas trop d'erreur ou l'homme sera pendu... 
 </p>
 
 <p align="center">
@@ -36,4 +36,5 @@ Ce qui nous a le plus aidé à avancer dans ce projet a été Github (un peu) et
   - https://www.javatpoint.com/python-tkinter-text
 
 # Bonus 
-Rejouez et augmentez votre score afin d'être le meilleur sur le tableau des scores !
+Rejouez et augmentez votre score afin d'être le premier sur le tableau des scores !
+Petite information.. le mode facile faut 1 points et le mode difficile en vaut 2 lorsque vous gagnez la partie !
